@@ -6,15 +6,16 @@
   .bg-pastel-pistacho   { background-color: #A5D6A7; }
   .bg-pastel-rosa       { background-color: #F8BBD0; }
   .bg-pastel-peonia     { background-color: #F48FB1; }
-  .bg-pastel-fondo      { background-color: #FFF8F9; }
+  .bg-pastel-fondo      { background-color: #fddfe3; }
   .text-pastel-gris     { color: #5F6368; }
 
   /* 🌙 Paleta pastel modo oscuro: solo se aplica cuando .dark está presente */
-  .dark .bg-pastel-verde      { background-color: #2E7D61; }
-  .dark .bg-pastel-pistacho   { background-color: #388E3C; }
-  .dark .bg-pastel-rosa       { background-color: #AD6C82; }
-  .dark .bg-pastel-peonia     { background-color: #8E3A59; }
-  .dark .bg-pastel-fondo      { background-color: #121212; }
+  /* Actualmente lo cambié por una paleta de colores café-hobbit que estoy probando */
+  .dark .bg-pastel-verde      { background-color: #705a47; }
+  .dark .bg-pastel-pistacho   { background-color: #554e49; }
+  .dark .bg-pastel-rosa       { background-color: #8c765d; }
+  .dark .bg-pastel-peonia     { background-color: #ccb9a3; }
+  .dark .bg-pastel-fondo      { background-color: #6c6661; }
   .dark .text-pastel-gris     { color: #F5F5F5; }
 
   /* Alias para fondo y texto general */
