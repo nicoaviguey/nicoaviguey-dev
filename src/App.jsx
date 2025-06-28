@@ -8,6 +8,9 @@ import Projects from './components/ProjectUno';
 import ProfileBadge from './components/ProfileBadge';
 import ProjectUno from './components/ProjectUno';
 import ProjectDos from './components/ProjectDos';
+import Window from './components/Window';
+import RelaxPaint from './components/RelaxPaint';
+import RainMP3 from './components/RainMP3';
 
 export default function App() {
   const [dark, setDark] = useState(false);
@@ -33,56 +36,11 @@ export default function App() {
           <ContactCard />
           <ProjectUno />
           <ProjectDos />
+          <Window />
+          <RelaxPaint />
+          <RainMP3 />
         </div>
       </div>
     </div>
   );
 }
-
-// export default function App() {
-//   return (
-//     <div className="min-h-screen bg-pastel-fondo p-6">
-//       <div className="max-w-6xl mx-auto grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-//         {/* Perfil centrado en la parte superior */}
-//         <div className="col-span-full flex justify-center">
-//           <ProfileBadge />
-//         </div>
-
-//         {/* Widgets estilo escritorio */}
-//         <Calendar />
-//         <ContactCard />
-//         <ProjectUno />
-//         <ProjectDos />
-//       </div>
-//     </div>
-//   );
-// }
-
-// function App() {
-//   return (
-//     <div className="min-h-screen w-full bg-pastel-fondo text-white px-6 py-10 font-sans">
-//       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-
-//         {/* Foto de perfil */}
-//         <div className="flex flex-col items-center space-y-4">
-//           <ProfileBadge />
-//         </div>
-
-//         {/* Contacto + Calendario */}
-//         <div className="flex flex-col space-y-6">
-//           <ContactCard />
-//           <Calendar />
-//         </div>
-
-//         {/* Proyectos */}
-//         <div className="flex flex-col space-y-6">
-//           <ProjectUno />
-//           <ProjectDos />
-//         </div>
-        
-//       </div>
-//     </div>
-//   );
-// }
-
-// export default App;
