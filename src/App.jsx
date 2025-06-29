@@ -11,6 +11,8 @@ import ProjectDos from './components/ProjectDos';
 import Window from './components/Window';
 import RelaxPaint from './components/RelaxPaint';
 import RainMP3 from './components/RainMP3';
+import CalendarWindow from './components/CalendarWindow';
+import ContactCardWindow from './components/ContactCardWindow';
 
 export default function App() {
   const [dark, setDark] = useState(false);
@@ -33,10 +35,11 @@ export default function App() {
             <ProfileBadge />
           </div>
           <Calendar />
+          <CalendarWindow />
           <ContactCard />
+          <ContactCardWindow />
           <ProjectUno />
           <ProjectDos />
-          <Window />
           <RelaxPaint />
           <RainMP3 />
         </div>

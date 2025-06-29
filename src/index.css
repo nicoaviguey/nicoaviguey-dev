@@ -1,4 +1,5 @@
 @import 'tailwindcss';
+/* @import '@tailwindcss/typography'; */
 
 @layer utilities {
   /* 🌸 Paleta pastel clara */
@@ -8,6 +9,9 @@
   .bg-pastel-peonia     { background-color: #F48FB1; }
   .bg-pastel-fondo      { background-color: #fddfe3; }
   .text-pastel-gris     { color: #5F6368; }
+  .border-pastel-rosa   { border-color: #F8BBD0; }
+  .border-pastel-peonia { border-color: #F48FB1;}
+  .hover\:bg-pastel-pistacho:hover  { background-color: #A5D6A7; }
 
   /* 🌙 Paleta pastel modo oscuro: solo se aplica cuando .dark está presente */
   /* Actualmente lo cambié por una paleta de colores café-hobbit que estoy probando */
@@ -17,6 +21,9 @@
   .dark .bg-pastel-peonia     { background-color: #ccb9a3; }
   .dark .bg-pastel-fondo      { background-color: #6c6661; }
   .dark .text-pastel-gris     { color: #F5F5F5; }
+  .dark .border-pastel-rosa   { border-color: #705a47; }
+  .dark .border-pastel-rosa   { border-color: #705a47; }
+  .dark .hover\:bg-pastel-pistacho:hover  { background-color: #554e49; }
 
   /* Alias para fondo y texto general */
   .bg-tema-fondo { background-color: #FFF8F9; }

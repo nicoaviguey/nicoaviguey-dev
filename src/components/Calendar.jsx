@@ -1,17 +1,3 @@
-// function Calendar() {
-//   const today = new Date();
-//   const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
-//   const formattedDate = today.toLocaleDateString('es-ES', options);
-
-//   return (
-//     <div className="bg-pastel-verde p-4 rounded-lg shadow-md">
-//       <h2 className="font-semibold text-base mb-2 text-pastel-gris">📅 Calendario</h2>
-//       <p className="text-sm text-pastel-gris">{formattedDate}</p>
-//     </div>
-//   );
-// }
-
-// export default Calendar;
 
 import { useState, useEffect } from 'react';
 
@@ -29,10 +15,9 @@ function Calendar() {
     const tempDays = [];
 
     // Rellenar espacios vacíos antes del 1
-    for (let i = 0; i < firstDay; i++) {
+    for (let i = 0; i < (firstDay === 0 ? 6 : firstDay - 1); i++) {
       tempDays.push(null);
     }
-
     // Rellenar los días del mes
     for (let i = 1; i <= lastDate; i++) {
       tempDays.push(i);
