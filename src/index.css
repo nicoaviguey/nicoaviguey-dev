@@ -2,8 +2,54 @@
 /* @import '@tailwindcss/typography'; */
 
 @layer utilities {
-  /* 🌸 Paleta pastel clara */
-  .bg-pastel-verde      { background-color: #C8E6C9; }
+
+  /* 🌸 Pastel */
+  .theme-pastel .bg-tema-fondo {
+    background: linear-gradient(135deg, #fddfe3, #f8bbd0);
+  }
+  .theme-pastel .bg-tema-principal   { background-color: #f48fb1; }
+  .theme-pastel .bg-tema-secundario  { background-color: #f8bbd0; }
+  .theme-pastel .text-tema           { color: #5F6368; }
+  .theme-pastel .border-tema         { border-color: #F48FB1; }
+
+  /* 🍃 Hobbit */
+  .theme-hobbit .bg-tema-fondo {
+    background: linear-gradient(135deg, #DCE7C1, #A4C686);
+  }
+  .theme-hobbit .bg-tema-principal   { background-color: #A4C686; }
+  .theme-hobbit .bg-tema-secundario  { background-color: #7A9D54; }
+  .theme-hobbit .text-tema           { color: #3C4F2E; }
+  .theme-hobbit .border-tema         { border-color: #7A9D54; }
+
+  /* 🌤 Celeste */
+  .theme-celeste .bg-tema-fondo {
+    background: linear-gradient(135deg, #E0F7FA, #B2EBF2);
+  }
+  .theme-celeste .bg-tema-principal   { background-color: #B2EBF2; }
+  .theme-celeste .bg-tema-secundario  { background-color: #4DD0E1; }
+  .theme-celeste .text-tema           { color: #0097A7; }
+  .theme-celeste .border-tema         { border-color: #4DD0E1; }
+
+  /* 💜 Violeta */
+  .theme-violeta .bg-tema-fondo {
+    background: linear-gradient(135deg, #E1D5E7, #CE93D8);
+  }
+  .theme-violeta .bg-tema-principal   { background-color: #CE93D8; }
+  .theme-violeta .bg-tema-secundario  { background-color: #AB47BC; }
+  .theme-violeta .text-tema           { color: #4A148C; }
+  .theme-violeta .border-tema         { border-color: #AB47BC; }
+
+  /* 🌙 Oscuro */
+  .theme-oscuro .bg-tema-fondo {
+    background: linear-gradient(135deg, #121212, #1e1e1e);
+  }
+  .theme-oscuro .bg-tema-principal    { background-color: #1e1e1e; }
+  .theme-oscuro .bg-tema-secundario   { background-color: #2c2c2c; }
+  .theme-oscuro .text-tema            { color: #f5f5f5; }
+  .theme-oscuro .border-tema          { border-color: #444444; }
+
+    /* 🌸 Paleta pastel clara */
+  /* .bg-pastel-verde      { background-color: #C8E6C9; }
   .bg-pastel-pistacho   { background-color: #A5D6A7; }
   .bg-pastel-rosa       { background-color: #F8BBD0; }
   .bg-pastel-peonia     { background-color: #F48FB1; }
@@ -11,23 +57,70 @@
   .text-pastel-gris     { color: #5F6368; }
   .border-pastel-rosa   { border-color: #F8BBD0; }
   .border-pastel-peonia { border-color: #F48FB1;}
-  .hover\:bg-pastel-pistacho:hover  { background-color: #A5D6A7; }
+  .hover\:bg-pastel-pistacho:hover  { background-color: #A5D6A7; } */
 
   /* 🌙 Paleta pastel modo oscuro: solo se aplica cuando .dark está presente */
   /* Actualmente lo cambié por una paleta de colores café-hobbit que estoy probando */
-  .dark .bg-pastel-verde      { background-color: #705a47; }
+  /* .dark .bg-pastel-verde      { background-color: #705a47; }
   .dark .bg-pastel-pistacho   { background-color: #554e49; }
   .dark .bg-pastel-rosa       { background-color: #8c765d; }
   .dark .bg-pastel-peonia     { background-color: #ccb9a3; }
   .dark .bg-pastel-fondo      { background-color: #6c6661; }
   .dark .text-pastel-gris     { color: #F5F5F5; }
   .dark .border-pastel-rosa   { border-color: #705a47; }
-  .dark .border-pastel-rosa   { border-color: #705a47; }
-  .dark .hover\:bg-pastel-pistacho:hover  { background-color: #554e49; }
+  .dark .border-pastel-peonia   { border-color: #554e49; }
+  .dark .hover\:bg-pastel-pistacho:hover  { background-color: #554e49; } */
 
   /* Alias para fondo y texto general */
-  .bg-tema-fondo { background-color: #FFF8F9; }
+  /* .bg-tema-fondo { background-color: #FFF8F9; }
   .text-tema { color: #5F6368; }
   .dark .bg-tema-fondo { background-color: #121212; }
-  .dark .text-tema { color: #F5F5F5; }
+  .dark .text-tema { color: #F5F5F5; } */
+
+  /* Para fondo y texto general */
+  /* .bg-tema-fondo { background-color: #FFF8F9; }
+  .dark .bg-tema-fondo { background-color: #121212; } */
+
+  /* 🌤️ Celestes */
+  /* .bg-cielo-amanecer     { background-color: #E0F7FA; }
+  .bg-brisa-suave        { background-color: #B2EBF2; }
+  .bg-cielo-claro        { background-color: #4DD0E1; }
+  .bg-turquesa-neblina   { background-color: #26C6DA; }
+  .bg-azul-encantado     { background-color: #0097A7; } */
+
+  /* 🌸 Violetas / Lilas */
+  /* .bg-lavanda-pastel     { background-color: #E1D5E7; }
+  .bg-lila-encantada     { background-color: #CE93D8; }
+  .bg-violeta-bruma      { background-color: #AB47BC; }
+  .bg-orquidea-magica    { background-color: #8E24AA; }
+  .bg-violeta-nocturno   { background-color: #4A148C; } */
+
+  
+  /* 🍃 Paleta de colores - hobbit verdes */
+  /* .bg-hobbit-pasto        { background-color: #A4C686; }
+  .bg-hobbit-musgo        { background-color: #7A9D54; }
+  .bg-hobbit-hoja         { background-color: #5F7A3A; }
+  .bg-hobbit-bosque       { background-color: #3C4F2E; }
+  .bg-hobbit-salvia       { background-color: #DCE7C1; } */
+
+  /* .text-hobbit-pasto      { color: #A4C686; }
+  .text-hobbit-musgo      { color: #7A9D54; }
+  .text-hobbit-hoja       { color: #5F7A3A; }
+  .text-hobbit-bosque     { color: #3C4F2E; }
+  .text-hobbit-salvia     { color: #DCE7C1; } */
+
+  /* 🌸 Rosas */
+  /* .bg-rosa-algodon       { background-color: #FFE4EC; }
+  .bg-rosa-melcocha      { background-color: #F8BBD0; }
+  .bg-rosa-peonia        { background-color: #F48FB1; }
+  .bg-rosa-sakura        { background-color: #EC407A; }
+  .bg-rosa-magico        { background-color: #AD1457; }
+
+  .text-rosa-algodon     { color: #FFE4EC; }
+  .text-rosa-melcocha    { color: #F8BBD0; }
+  .text-rosa-peonia      { color: #F48FB1; }
+  .text-rosa-sakura      { color: #EC407A; }
+  .text-rosa-magico      { color: #AD1457; } */
+
+
 }
