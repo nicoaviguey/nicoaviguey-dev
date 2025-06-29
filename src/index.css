@@ -21,6 +21,15 @@
   .theme-hobbit .text-tema           { color: #3C4F2E; }
   .theme-hobbit .border-tema         { border-color: #7A9D54; }
 
+  /* 🍃 Hobbit - Café */
+  .theme-cafe .bg-tema-fondo {
+    background: linear-gradient(135deg, #d7c4a3, #a67c3a);
+  }
+  .theme-cafe .bg-tema-principal   { background-color: #a67c3a; }
+  .theme-cafe .bg-tema-secundario  { background-color: #7f5a20; }
+  .theme-cafe .text-tema           { color: #4b3a1f; }
+  .theme-cafe .border-tema         { border-color: #7f5a20; }
+
   /* 🌤 Celeste */
   .theme-celeste .bg-tema-fondo {
     background: linear-gradient(135deg, #E0F7FA, #B2EBF2);

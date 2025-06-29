@@ -9,6 +9,7 @@ export default function Navbar({ onChangeTheme }) {
       >
         <option value="theme-pastel">🌸 Pastel</option>
         <option value="theme-hobbit">🍃 Hobbit</option>
+        <option value="theme-cafe">🍂 Espresso</option>
         <option value="theme-celeste">🌤 Celeste</option>
         <option value="theme-violeta">💜 Violeta</option>
         <option value="theme-oscuro">🌙 Oscuro</option>

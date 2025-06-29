@@ -27,7 +27,7 @@ export default function App() {
 
 
   useEffect(() => {
-    const themes = ['theme-pastel', 'theme-violeta', 'theme-hobbit', 'theme-celeste', 'theme-oscuro'];
+    const themes = ['theme-pastel', 'theme-violeta', 'theme-hobbit', 'theme-cafe', 'theme-celeste', 'theme-oscuro'];
     document.documentElement.classList.remove(...themes);
     document.documentElement.classList.add(theme);
     localStorage.setItem('theme', theme);
