@@ -2,16 +2,12 @@ import './App.css';
 import './index.css';
 import { useEffect, useLayoutEffect, useState } from 'react';
 import Navbar from './components/Navbar';
-import ContactCard from './components/ContactCard';
-import Calendar from './components/Calendar';
 import ProfileBadge from './components/ProfileBadge';
-import ProjectUno from './components/ProjectUno';
-import ProjectDos from './components/ProjectDos';
-import Window from './components/Window';
-import RelaxPaint from './components/RelaxPaint';
-import RainMP3 from './components/RainMP3';
-import CalendarWindow from './components/CalendarWindow';
-import ContactCardWindow from './components/ContactCardWindow';
+import VentanitaKawaii from './components/VentanitaKawaii';
+import Home from './components/Home';
+import Calendar from './components/Calendar';
+import Enlaces from './components/Enlaces';
+import Projects from './components/Projects';
 
 export default function App() {
   // const [theme, setTheme] = useState('pastel');
@@ -37,76 +33,20 @@ export default function App() {
 
 
   return (
-    <div className="min-h-screen bg-tema-fondo p-6 transition-colors duration-300">
+    <div className="min-h-screen bg-tema-fondo fondo-kawaii p-6 transition-colors duration-300">
       <div className="max-w-6xl mx-auto">
         <Navbar theme={theme} onChangeTheme={setTheme} />
 
-        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2">
           <div className="col-span-full flex justify-center">
             <ProfileBadge />
           </div>
+          <Home />
           <Calendar />
-          <CalendarWindow />
-          <ContactCard />
-          <ContactCardWindow />
-          <ProjectUno />
-          <ProjectDos />
-          <RelaxPaint />
-          <RainMP3 />
+          <Enlaces />
+          <Projects />
         </div>
       </div>
     </div>
   );
 }
-
-// import './App.css';
-// import './index.css';
-// import { useEffect, useState } from 'react';
-// import Navbar from './components/Navbar';
-// import ContactCard from './components/ContactCard';
-// import Calendar from './components/Calendar';
-// import ProfileBadge from './components/ProfileBadge';
-// import ProjectUno from './components/ProjectUno';
-// import ProjectDos from './components/ProjectDos';
-// import Window from './components/Window';
-// import RelaxPaint from './components/RelaxPaint';
-// import RainMP3 from './components/RainMP3';
-// import CalendarWindow from './components/CalendarWindow';
-// import ContactCardWindow from './components/ContactCardWindow';
-
-// export default function App() {
-//   const [theme, setTheme] = useState('pastel');
-
-//   useEffect(() => {
-//     document.documentElement.classList.remove(
-//       'theme-pastel',
-//       'theme-violeta',
-//       'theme-hobbit',
-//       'theme-celeste',
-//       'theme-oscuro'
-//     );
-//     document.documentElement.classList.add(`theme-${theme}`);
-//   }, [theme]);
-
-//   return (
-//     <div className="min-h-screen bg-pastel-fondo dark:bg-dark-fondo p-6 transition-colors duration-300">
-//       <div className="max-w-6xl mx-auto">
-//         <Navbar theme={theme} onChangeTheme={setTheme} />
-
-//         <div className="grid gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-//           <div className="col-span-full flex justify-center">
-//             <ProfileBadge />
-//           </div>
-//           <Calendar />
-//           <CalendarWindow />
-//           <ContactCard />
-//           <ContactCardWindow />
-//           <ProjectUno />
-//           <ProjectDos />
-//           <RelaxPaint />
-//           <RainMP3 />
-//         </div>
-//       </div>
-//     </div>
-//   );
-// }
