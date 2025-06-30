@@ -17,6 +17,39 @@
   src: url('/src/assets/fuentes-usables/Quicksand/Quicksand-VariableFont_wght.ttf') format('ttf');
 } */
 
+@keyframes brillito {
+  0% {
+    box-shadow: 0 0 0px var(--tema-contraste);
+  }
+  50% {
+    box-shadow: 0 0 10px var(--tema-contraste);
+  }
+  100% {
+    box-shadow: 0 0 0px var(--tema-contraste);
+  }
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15) rotate(2deg);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-brillito {
+  animation: brillito 1.2s ease-in-out infinite;
+}
+
+.animate-pop {
+  animation: pop 0.3s ease;
+}
+
+
 @layer utilities {
 
   /* Diferentes estilos de fuente */
@@ -72,6 +105,9 @@
 
 
   /* 🌸 Pastel */
+  .theme-pastel {
+    --tema-contraste: #a18cd1;
+  }
   .theme-pastel .bg-tema-fondo {
     background: linear-gradient(to bottom, #f8bbd0, #a18cd1);
   }
@@ -81,6 +117,9 @@
   .theme-pastel .border-tema         { border-color: #F48FB1; }
 
   /* 🍃 Hobbit */
+  .theme-hobbit {
+    --tema-contraste: #3f6b3c;
+  }
   .theme-hobbit .bg-tema-fondo {
     background: linear-gradient(to bottom, #cccb9a, #3f6b3c);
   }
@@ -90,6 +129,9 @@
   .theme-hobbit .border-tema         { border-color: #7A9D54; }
 
   /* 🍃 Hobbit o Espresso - Café */
+  .theme-cafe {
+    --tema-contraste: #4b2e19;
+  }
   .theme-cafe .bg-tema-fondo {
     background: linear-gradient(to bottom, #d2b48c, #4b2e19);
   }
@@ -99,6 +141,9 @@
   .theme-cafe .border-tema         { border-color: #7f5a20; }
 
   /* 🌤 Celeste */
+  .theme-celeste {
+    --tema-contraste: #3b5ae4;
+  }
   .theme-celeste .bg-tema-fondo {
     background: linear-gradient(to bottom, #0097A7, #3b5ae4);
   }
@@ -108,6 +153,9 @@
   .theme-celeste .border-tema         { border-color: #4DD0E1; }
 
   /* 💜 Violeta */
+  .theme-violeta {
+    --tema-contraste: #6cfbfd;
+  }
   .theme-violeta .bg-tema-fondo {
     background: linear-gradient(to bottom, #fab5f1, #6cfbfd);
   }
@@ -117,6 +165,9 @@
   .theme-violeta .border-tema         { border-color: #875fd1; }
 
   /* 🌙 Oscuro */
+  .theme-oscuro {
+    --tema-contraste: #0a0a0a;
+  }
   .theme-oscuro .bg-tema-fondo {
     background: linear-gradient(to bottom, #808080, #0a0a0a);
   }
@@ -130,6 +181,18 @@
   }
   .theme-oscuro .fill-tema-contraste{
     fill: #000000;
+  }
+
+  .border-tema-contraste {
+    border-color: var(--tema-contraste);
+  }
+
+  .ring-tema-contraste {
+    --tw-ring-color: var(--tema-contraste);
+  }
+
+  .shadow-tema-contraste {
+    --tw-shadow-color: var(--tema-contraste);
   }
 
 }

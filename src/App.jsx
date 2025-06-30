@@ -8,6 +8,7 @@ import Home from './components/Home';
 import Calendar from './components/Calendar';
 import Enlaces from './components/Enlaces';
 import Projects from './components/Projects';
+import Footer from './components/Footer';
 
 export default function App() {
   // const [theme, setTheme] = useState('pastel');
@@ -45,6 +46,7 @@ export default function App() {
           <Calendar />
           <Enlaces />
           <Projects />
+          <div className='col-span-full flex justify-center'><Footer /></div>
         </div>
       </div>
     </div>
