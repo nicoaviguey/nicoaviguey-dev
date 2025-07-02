@@ -1,12 +1,61 @@
-# React + Vite
+# 🌸 nicoaviguey-dev — Portafolio interactivo estilo escritorio digital
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+¡Hola! Este es mi sitio web personal tipo portafolio. Tiene un diseño inspirado en escritorios digitales con un toque kawaii 💖. Lo desarrollé desde cero con React y TailwindCSS.
 
-Currently, two official plugins are available:
+## 🖥️ Características principales
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Diseño responsivo tipo escritorio (contempla mobile también).
+- Temas personalizados (🌙 pastel/oscuro y otros estilos visuales coloridos).
+- Componentes con estilo ventanitas kawaii y animaciones suaves.
+- Información de contacto accesible con un clic directamente desde la interfaz.
+- Calendario en tiempo real, foto tipo insignia, y detalles personales.
+- Estructura modular y organizada.
 
-## Expanding the ESLint configuration
+## 🚀 Deploy
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este sitio estará publicado en:
+👉 [https://nicoaviguey.dev](https://nicoaviguey.dev)
+
+## 🛠️ Tecnologías
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vite](https://vitejs.dev/)
+- [Vercel](https://vercel.com/)
+
+## 📁 Estructura del proyecto
+
+```bash
+.
+├── public/
+├── src/
+│   ├── assets/
+│   │   ├── fuentes-usables/
+│   │   ├── imag-usables/
+│   │   └── svg/
+│   ├── components/
+│   │   ├── Calendar.jsx
+│   │   ├── Enlaces.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Home.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── ProfileBadge.jsx
+│   │   ├── Projects.jsx
+│   │   ├── ThemeSelector.jsx
+│   │   └── VentanitaKawaii.jsx
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+├── README.md
+└── .gitignore
+
+
+
+
+
+Gracias por visitar 💖
+— Nicole Avendaño | @nicoaviguey
