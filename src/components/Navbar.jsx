@@ -8,17 +8,6 @@ export default function Navbar({ onChangeTheme }) {
         Nico's Desktop</h1>
 
         <ThemeSelector onChangeTheme={onChangeTheme} />
-      {/* <select
-        onChange={(e) => onChangeTheme(e.target.value)}
-        className="font-digital px-3 py-1 rounded-xl text-sm font-medium bg-tema-secundario text-tema"
-      >
-        <option value="theme-pastel">🌸</option>
-        <option value="theme-hobbit">🍃</option>
-        <option value="theme-cafe">🍂</option>
-        <option value="theme-celeste">🌤</option>
-        <option value="theme-violeta">💜</option>
-        <option value="theme-oscuro">🌙</option>
-      </select> */}
     </nav>
   );
 }

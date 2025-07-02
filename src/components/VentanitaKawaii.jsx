@@ -12,7 +12,7 @@ export default function VentanitaKawaii({ title, children }) {
         <span className="w-4 h-4 rounded-full bg-yellow-400 shadow-[0_0_6px_rgba(255,255,100,0.7)]"></span>
         <span className="w-4 h-4 rounded-full bg-green-400 shadow-[0_0_6px_rgba(100,255,100,0.7)]"></span>
 
-        {/* Título centrado */}
+        {/* Título a la derecha */}
         <h3 className="flex-grow text-right font-bold text-base text-tema truncate">
           {title}
         </h3>

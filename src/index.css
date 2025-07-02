@@ -12,10 +12,6 @@
   --font-poppins: 'Poppins', 'sans-serif';
 }
 
-/* @font-face {
-  font-family: 'Quicksand','sans-serif';
-  src: url('/src/assets/fuentes-usables/Quicksand/Quicksand-VariableFont_wght.ttf') format('ttf');
-} */
 
 @keyframes brillito {
   0% {
@@ -46,7 +42,7 @@
 }
 
 .animate-pop {
-  animation: pop 0.3s ease;
+  animation: pop 1s;
 }
 
 

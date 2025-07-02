@@ -4,7 +4,7 @@ export default function Enlaces() {
     return(
         <VentanitaKawaii title='Enlaces'>
             <div className="w-full min-h-20 grid grid-cols-4">
-                <div><a href="https://www.linkedin.com/in/nicoaviguey/">
+                <div className="hover:scale-105"><a href="https://www.linkedin.com/in/nicoaviguey/">
                         <svg width="64px" height="64px" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="SVGRepo_bgCarrier" stroke-width="0">
                             <path transform="translate(-2.4, -2.4), scale(1.7999999999999998)" fill="#ffffff" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"></path>
@@ -23,7 +23,7 @@ export default function Enlaces() {
                     </a>
                 </div>
                 
-                <div><a href="https://www.instagram.com/nicoaviguey/">
+                <div className="hover:scale-105"><a href="https://www.instagram.com/nicoaviguey/">
                         <svg width="64px" height="64px" viewBox="-2.4 -2.4 28.80 28.80" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g id="SVGRepo_bgCarrier" stroke-width="0">
                             <path transform="translate(-2.4, -2.4), scale(1.7999999999999998)" fill="#ffffff" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"></path>
@@ -37,7 +37,7 @@ export default function Enlaces() {
                     </a>
                 </div>
                 
-                <div><a href="mailto:nicoleaviguey.ap@gmail.com">
+                <div className="hover:scale-105"><a href="mailto:nicoleaviguey.ap@gmail.com">
                     <svg width="64px" height="64px" viewBox="-4.08 -4.08 32.16 32.16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="SVGRepo_bgCarrier" stroke-width="0">
                         <path transform="translate(-4.08, -4.08), scale(2.01)" fill="#ffffff" d="M9.166.33a2.25 2.25 0 00-2.332 0l-5.25 3.182A2.25 2.25 0 00.5 5.436v5.128a2.25 2.25 0 001.084 1.924l5.25 3.182a2.25 2.25 0 002.332 0l5.25-3.182a2.25 2.25 0 001.084-1.924V5.436a2.25 2.25 0 00-1.084-1.924L9.166.33z" strokewidth="0"></path>
