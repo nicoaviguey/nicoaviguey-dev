@@ -60,7 +60,7 @@ export default function Calendar() {
                         ←
                     </button>
                     <span className="text-sm font-semibold text-tema">
-                        📅 {monthNames[month]} {year}
+                         {monthNames[month]} {year}
                     </span>
                     <button
                         onClick={goToNextMonth}

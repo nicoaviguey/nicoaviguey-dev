@@ -25,7 +25,7 @@ export default function ThemeSelector({ onChangeTheme }) {
   };
 
   return (
-    <div className="flex items-center gap-2">
+    <div className="flex flex-wrap justify-center items-center gap-2">
       {themes.map((theme) => (
         <button
           key={theme.id}
