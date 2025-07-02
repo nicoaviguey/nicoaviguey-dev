@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import daisy from '../assets/svg/daisy-svgrepo-com.svg';
 import frog from '../assets/svg/frog-fwhite-svgrepo-com.svg';
@@ -17,12 +17,25 @@ const themes = [
 ];
 
 export default function ThemeSelector({ onChangeTheme }) {
-  const [selected, setSelected] = useState('theme-pastel');
+  const [selected, setSelected] = useState(null);
+
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme');
+    const defaultTheme = 'theme-pastel';
+    const initialTheme = themes.find(t => t.id === savedTheme) ? savedTheme : defaultTheme;
+
+    setSelected(initialTheme);
+    onChangeTheme(initialTheme);
+  }, [onChangeTheme]);
 
   const handleThemeClick = (id) => {
     setSelected(id);
     onChangeTheme(id);
-  };
+    localStorage.setItem('theme', id);
+  }; 
+  
+  if (!selected) return null;
 
   return (
     <div className="flex flex-wrap justify-center items-center gap-2">

@@ -1,6 +1,6 @@
 import './App.css';
 import './index.css';
-import { useEffect, useLayoutEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Navbar from './components/Navbar';
 import ProfileBadge from './components/ProfileBadge';
 import VentanitaKawaii from './components/VentanitaKawaii';
@@ -11,17 +11,10 @@ import Projects from './components/Projects';
 import Footer from './components/Footer';
 
 export default function App() {
-  // const [theme, setTheme] = useState('pastel');
   
   const [theme, setTheme] = useState(() => {
     return localStorage.getItem('theme') || 'theme-pastel';
   });
-
-  useLayoutEffect(() => {
-  const savedTheme = localStorage.getItem('theme') || 'theme-pastel';
-  document.documentElement.classList.add(savedTheme);
-}, []);
-
 
   useEffect(() => {
     const themes = ['theme-pastel', 'theme-violeta', 'theme-hobbit', 'theme-cafe', 'theme-celeste', 'theme-oscuro'];
