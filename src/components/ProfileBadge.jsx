@@ -3,7 +3,7 @@ export default function ProfileBadge() {
     <div className="w-full h-full flex flex-col lg:flex-row md:flex-col sm:flex-col items-center p-4 bg-tema-principal rounded-xl shadow-md">
       <div className="w-32 h-32 rounded-full border-4 border-tema animate-brillito overflow-hidden shadow-lg">
         <img
-          src="src/assets/imag-usables/perfil-nicole.PNG"
+          src="./src/assets/imag-usables/perfil-nicole.PNG"
           alt="Nicole"
           className="w-full h-full object-cover"
         />

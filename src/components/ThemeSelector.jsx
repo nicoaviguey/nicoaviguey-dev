@@ -1,12 +1,12 @@
 import { useState } from "react";
 
 const themes = [
-  { id: 'theme-pastel', icon: '/src/assets/svg/daisy-svgrepo-com.svg' },
-  { id: 'theme-hobbit', icon: '/src/assets/svg/frog-fwhite-svgrepo-com.svg' },
-  { id: 'theme-cafe', icon: '/src/assets/svg/cup-hot-svgrepo-com.svg' },
-  { id: 'theme-celeste', icon: '/src/assets/svg/cloud-svgrepo-com.svg' },
-  { id: 'theme-violeta', icon: '/src/assets/svg/heart-svgrepo-com.svg' },
-  { id: 'theme-oscuro', icon: '/src/assets/svg/moon-svgrepo-com.svg' },
+  { id: 'theme-pastel', icon: './src/assets/svg/daisy-svgrepo-com.svg' },
+  { id: 'theme-hobbit', icon: './src/assets/svg/frog-fwhite-svgrepo-com.svg' },
+  { id: 'theme-cafe', icon: './src/assets/svg/cup-hot-svgrepo-com.svg' },
+  { id: 'theme-celeste', icon: './src/assets/svg/cloud-svgrepo-com.svg' },
+  { id: 'theme-violeta', icon: './src/assets/svg/heart-svgrepo-com.svg' },
+  { id: 'theme-oscuro', icon: './src/assets/svg/moon-svgrepo-com.svg' },
 ];
 
 export default function ThemeSelector({ onChangeTheme }) {
