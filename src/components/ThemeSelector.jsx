@@ -1,12 +1,19 @@
 import { useState } from "react";
 
+import daisy from '../assets/svg/daisy-svgrepo-com.svg';
+import frog from '../assets/svg/frog-fwhite-svgrepo-com.svg';
+import cup from '../assets/svg/cup-hot-svgrepo-com.svg';
+import cloud from '../assets/svg/cloud-svgrepo-com.svg';
+import heart from '../assets/svg/heart-svgrepo-com.svg';
+import moon from '../assets/svg/moon-svgrepo-com.svg';
+
 const themes = [
-  { id: 'theme-pastel', icon: './src/assets/svg/daisy-svgrepo-com.svg' },
-  { id: 'theme-hobbit', icon: './src/assets/svg/frog-fwhite-svgrepo-com.svg' },
-  { id: 'theme-cafe', icon: './src/assets/svg/cup-hot-svgrepo-com.svg' },
-  { id: 'theme-celeste', icon: './src/assets/svg/cloud-svgrepo-com.svg' },
-  { id: 'theme-violeta', icon: './src/assets/svg/heart-svgrepo-com.svg' },
-  { id: 'theme-oscuro', icon: './src/assets/svg/moon-svgrepo-com.svg' },
+  { id: 'theme-pastel', icon: daisy },
+  { id: 'theme-hobbit', icon: frog },
+  { id: 'theme-cafe', icon: cup },
+  { id: 'theme-celeste', icon: cloud },
+  { id: 'theme-violeta', icon: heart },
+  { id: 'theme-oscuro', icon: moon },
 ];
 
 export default function ThemeSelector({ onChangeTheme }) {
