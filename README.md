@@ -25,7 +25,7 @@ Este sitio estará publicado en:
 
 ## 📁 Estructura del proyecto
 
-```bash
+```
 .
 ├── public/
 ├── src/
@@ -52,6 +52,7 @@ Este sitio estará publicado en:
 ├── vite.config.js
 ├── README.md
 └── .gitignore
+```
 
 
 Este proyecto es personal, desarrollado como portafolio para mostrar mis habilidades con HTML, CSS y JavaScript.  
