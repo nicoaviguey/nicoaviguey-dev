@@ -54,7 +54,12 @@ Este sitio estará publicado en:
 └── .gitignore
 
 
+Este proyecto es personal, desarrollado como portafolio para mostrar mis habilidades con HTML, CSS y JavaScript.  
+No está permitido reutilizar el código sin dar créditos.
 
+✨ Si quieres aprender o inspirarte, ¡genial! Pero no lo copies tal cual 🙏
+
+Autoría: Nicole Avendaño – 2025
 
 
 Gracias por visitar 💖
