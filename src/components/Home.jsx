@@ -17,6 +17,9 @@ export default function Home() {
                 parte de mi personalidad.
                 Aquí podrás encontrar enlaces a mi información de
                 contacto, github, linkedIn y proyectos. <br /><br />
+                Actualmente me desempeño como Técnico Informático en una escuela, 
+                donde brindo soporte y soluciones tecnológicas, 
+                además de haber renovado y actualmente administrar la página web institucional. <br /><br />
                 Este sitio tiene componentes que solo son decorativos,
                 por el estilo de escritorio ^^. <br /><br />
                 Puedes cambiar los colores a tu gusto! 
